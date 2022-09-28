@@ -1,0 +1,48 @@
+#main{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between
+    ;
+}
+#main_left{
+    width: 25%;
+  
+}
+#main_left>select{
+    margin: auto;
+    border: none;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: #7c8389;
+
+}
+#main_left>select:hover{
+    color:#a3b49b ;
+    border: none;
+}
+#main_right{
+    width: 75%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat((2,1fr));
+   gap: 25px;
+}
+#main_right>div>div{
+   text-align: center;
+   display: flex;
+   border: 1px solid ;
+   margin: auto;
+   justify-content: space-around;
+}
+#main_right>div img{
+    width: 100%;
+}
+#main_right>div p{
+    font-size: 30px;
+}
+#main-right>div>div{
+    border:1px solid
+}

@@ -1,7 +1,6 @@
 #main{
     width: 90%;
     margin: auto;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between
     ;
@@ -33,9 +32,23 @@
 #main_right>div>div{
    text-align: center;
    display: flex;
-   border: 1px solid ;
+   align-items: center;
    margin: auto;
-   justify-content: space-around;
+   justify-content: space-between;
+   height: 60px;
+}
+#main_right>div>div>img{
+    width: 60px;
+    height: 100%;
+}
+#main_right>div>img+p{
+    font-size: 25px;
+}
+#main_right>div>div>p{
+     margin-right:40px;
+     color: #a2b59a;
+    font-weight: bold;
+    font-size: 25px;
 }
 #main_right>div img{
     width: 100%;

@@ -1,0 +1,58 @@
+#footer{
+    width: 100%;
+    background-color: #eef2f0;
+    padding: 40px 0px;
+}
+#ft_top{
+   width: 95%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+#ft_top div{
+    text-align: left;
+    width: 20%;
+}
+#ft_top p,h3,h1,h2,h4{
+ color: rgb(122, 113, 113);
+ font-size: 23px;
+ font-family: Poppins, sans-serif;
+
+}
+#email{
+    text-align: center;
+ font-family: Poppins, sans-serif;
+ color: rgb(122, 113, 113);
+ font-size: 20px;
+ height: 30px;
+
+}
+#color{
+font-size: 20px;
+}
+#footer>p{
+   margin-left: 30px;
+    font-family: Poppins, sans-serif;
+}
+#ft_bottom{
+    width: 95%;
+    border: 1px solid;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+    font-family: Poppins, sans-serif;
+}
+#btn{
+    background-color: white;
+    font-size: 20px;
+    border-color: rgb(240, 240, 240);
+    padding: 15px;
+  margin-left: 56%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+}
+#btn:hover{
+    border-color: rgb(33, 33, 33);
+
+}

@@ -1,0 +1,69 @@
+#sign_in{
+    width: 34%;
+    margin: auto;
+}
+#sign_in>h1{
+    font-size: 30px;
+}
+/* #sign_in>p{
+    font-size: 25px;
+    line-height: 34px;
+} */
+  input[type="submit"]{
+   width: 100%; 
+   background-color: #66765f;
+   color: white;
+   border: none;
+   font-size: large;
+   padding: 18px;
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+input[type="submit"]:hover{
+    background-color: #91a18a;
+}
+button{
+    width: 100%; 
+    background-color: #66765f;
+    color: white;
+    border: none;
+    font-size: large;
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+ }
+ button:hover{
+     background-color: #91a18a;
+ }
+p{
+    color: rgb(122, 113, 113);
+    font-size: 23px;
+    font-family: Poppins, sans-serif;
+    margin-bottom:10px;   
+}
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+h2{
+    font-size: 30px;
+    color: rgb(64, 58, 58);
+}
+input{
+    width: 90%;
+    padding: 20px;
+    font-size: 19px;
+}   
+#lostpass{
+  font-size: 17px
+}
+.p{
+    font-size: 17px;
+}
+#create_acc p{
+  margin-bottom: 5px;
+}
+.return{
+    text-decoration: none;
+}

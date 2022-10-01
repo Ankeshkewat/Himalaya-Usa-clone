@@ -96,9 +96,16 @@ opacity: 1;
   font-family: Poppins, sans-serif;
   padding: 1px;
   margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
 }
-#top_header>p{
+#top_header>p:nth-child(1){
   margin-left: 70px;
+  margin-top: 0%;
+  color: #777777;
+  margin-top: 10px;
+}
+#top_header>p:nth-child(2){
   margin-top: 0%;
   color: #777777;
   margin-top: 10px;

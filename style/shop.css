@@ -2,8 +2,7 @@
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-between
-    ;
+    justify-content: space-between;
 }
 #main_left{
     width: 25%;
@@ -36,6 +35,9 @@
    margin: auto;
    justify-content: space-between;
    height: 60px;
+}
+#main_right>div>div:hover{
+    background-color: #a3b49c;
 }
 #main_right>div>div>img{
     width: 60px;

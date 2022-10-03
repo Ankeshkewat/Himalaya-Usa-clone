@@ -36,8 +36,8 @@
    justify-content: space-between;
    height: 60px;
 }
-#main_right>div>div:hover{
-    background-color: #a3b49c;
+#main_right>div>div>p:hover{
+    color: green;
 }
 #main_right>div>div>img{
     width: 60px;
